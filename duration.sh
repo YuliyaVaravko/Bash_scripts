@@ -24,7 +24,7 @@ EOF
         ;;
       *)
         echo
-        $@ && duration || echo "\nUnknow command" && exit 0
+        $@ && duration || echo "Unknow command" && exit 0
         ;;
  esac
 done
